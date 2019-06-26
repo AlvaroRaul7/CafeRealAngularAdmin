@@ -101,15 +101,15 @@ textarea:focus, input:focus {
 }
 
 
-input::-webkit-input-placeholder { color: #1b3815;}
-input:-moz-placeholder { color: #1b3815;}
-input::-moz-placeholder { color: #1b3815;}
-input:-ms-input-placeholder { color: #1b3815;}
+input::-webkit-input-placeholder { color: #a05611;}
+input:-moz-placeholder { color: #a05611;}
+input::-moz-placeholder { color: #a05611;}
+input:-ms-input-placeholder { color: #a05611;}
 
-textarea::-webkit-input-placeholder { color: #1b3815;}
-textarea:-moz-placeholder { color: #1b3815;}
-textarea::-moz-placeholder { color: #1b3815;}
-textarea:-ms-input-placeholder { color: #1b3815;}
+textarea::-webkit-input-placeholder { color:#a05611;}
+textarea:-moz-placeholder { color:#a05611;}
+textarea::-moz-placeholder { color: #a05611;}
+textarea:-ms-input-placeholder { color:#a05611;}
 
 /*---------------------------------------------*/
 button {
@@ -138,14 +138,14 @@ iframe {
 .txt2 {
   font-family: Ubuntu-Regular;
   font-size: 15px;
-  color: #57b846;
+  color: #a05611;
   line-height: 1.4;
 }
 
 .txt3 {
   font-family: Ubuntu-Bold;
   font-size: 15px;
-  color: #57b846;
+  color: #a05611;
   line-height: 1.4;
   text-transform: uppercase;
 }
@@ -208,7 +208,7 @@ iframe {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #57b846;
+  background-color: #a05611;
   padding-top: 50px;
   padding-bottom: 39px;
 }
@@ -227,7 +227,7 @@ iframe {
 .input100 {
   font-family: Ubuntu-Bold;
   font-size: 15px;
-  color: #1b3815;
+  color: #a05611;
   line-height: 1.2;
 
   position: relative;
@@ -294,7 +294,7 @@ iframe {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  background-color: #57b846;
+  background-color:#a05611;
   border-radius: 25px;
 
   font-family: Ubuntu-Bold;
