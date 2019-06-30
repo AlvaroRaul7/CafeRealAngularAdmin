@@ -7,7 +7,6 @@ import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './secundarias/admin/admin.component';
 import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './secundarias/registration/registration.component';
-import { RegisterComponent } from './register/register.component';
 
 const rutas: Routes = [
  { path: '', component: LoginComponent },
@@ -17,7 +16,7 @@ const rutas: Routes = [
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(rutas)],
-  declarations: [ AppComponent, LoginComponent, AdminComponent, RegistrationComponent, RegisterComponent],
+  declarations: [ AppComponent, LoginComponent, AdminComponent, RegistrationComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
