@@ -10,6 +10,14 @@ body {
 	background: #3b4465;
 }
 
+.background{
+  /*background: #3b4465;*/
+  background: url("https://images7.alphacoders.com/343/343836.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
+.transparencia{
+  background: rgba(255,255,255, 0.25)
+}
 .forms-section {
 	display: flex;
 	flex-direction: column;
