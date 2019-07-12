@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import $ from 'jquery';
 
 @Component({
   selector: 'app-ingresar-item',
@@ -10,6 +11,9 @@ export class IngresarItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function () {
+    $('.stepper').mdbStepper();
+})
   }
 
 }

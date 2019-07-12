@@ -9,7 +9,8 @@ import { EliminarItemComponent } from './eliminar-item/eliminar-item.component';
 const routes: Routes= [
   {path:'ingresar-item', component: IngresarItemComponent},
   {path:'modificar-item', component: ModificarItemComponent},
-  {path:'eliminar-item', component: EliminarItemComponent}
+  {path:'eliminar-item', component: EliminarItemComponent},
+  {path: 'panel-central', component: PanelCentralComponent }
 ];
 
 @NgModule({

@@ -11,6 +11,9 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import{AdminModule, routesComponent} from './secundarias/admin/admin.module';
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
+
 const rutas: Routes = [
  { path: '', component: LoginComponent },
  { path: 'admin', component: AdminComponent },
@@ -18,7 +21,7 @@ const rutas: Routes = [
 ];
 
 @NgModule({
-  imports:      [ BrowserModule,AdminModule, FormsModule, RouterModule.forRoot(rutas),AngularFontAwesomeModule],
+  imports:      [ BrowserModule,AdminModule,MDBBootstrapModule.forRoot(), FormsModule, RouterModule.forRoot(rutas),AngularFontAwesomeModule],
   declarations: [ AppComponent, LoginComponent, AdminComponent, RegistrationComponent, routesComponent],
   bootstrap:    [ AppComponent ]
 })
