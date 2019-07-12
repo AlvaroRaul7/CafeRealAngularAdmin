@@ -9,6 +9,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './secundarias/registration/registration.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
+import{AdminModule, routesComponent} from './secundarias/admin/admin.module';
+
 const rutas: Routes = [
  { path: '', component: LoginComponent },
  { path: 'admin', component: AdminComponent },
@@ -16,8 +18,8 @@ const rutas: Routes = [
 ];
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(rutas),AngularFontAwesomeModule],
-  declarations: [ AppComponent, LoginComponent, AdminComponent, RegistrationComponent],
+  imports:      [ BrowserModule,AdminModule, FormsModule, RouterModule.forRoot(rutas),AngularFontAwesomeModule],
+  declarations: [ AppComponent, LoginComponent, AdminComponent, RegistrationComponent, routesComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
