@@ -4,16 +4,18 @@ import {Routes, RouterModule } from '@angular/router';
 import { IngresarItemComponent } from './ingresar-item/ingresar-item.component';
 import { ModificarItemComponent } from './modificar-item/modificar-item.component';
 import { PanelCentralComponent } from './panel-central/panel-central.component';
+import { EliminarItemComponent } from './eliminar-item/eliminar-item.component';
 
 const routes: Routes= [
   {path:'ingresar-item', component: IngresarItemComponent},
-  {path:'modificar-item', component: ModificarItemComponent}
+  {path:'modificar-item', component: ModificarItemComponent},
+  {path:'eliminar-item', component: EliminarItemComponent}
 ];
 
 @NgModule({
   imports:[RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  declarations: [PanelCentralComponent]
+  declarations: [PanelCentralComponent, EliminarItemComponent]
 })
 
 export class AdminModule { }
